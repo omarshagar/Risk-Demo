@@ -1,0 +1,562 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://TileMap/Num.tres" type="TileSet" id=1]
+[ext_resource path="res://TileMap.cs" type="Script" id=2]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 38.5581
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 2, 2 )
+format = 1
+tile_data = PoolIntArray( 2949458, 5, 0, 3605125, 10, 0, 3867318, 12, 0, 4194457, 1, 0, 4260064, 11, 0, 4850258, 10, 0, 4981117, 0, 0, 5177784, 11, 0, 6029508, 5, 0, 6357551, 8, 0, 6553887, 1, 0, 6619375, 1, 0, 6750846, 8, 0, 7668204, 11, 0, 8323434, 4, 0, 8585641, 11, 0, 9044624, 10, 0, 9241307, 8, 0, 9437362, 2, 0, 9765102, 4, 0, 9962021, 11, 0, 11141737, 8, 0, 11207100, 1, 0, 12386676, 5, 0, 12845238, 5, 0, 14025295, 9, 0, 15270110, 3, 0, 15335937, 11, 0, 15336077, 8, 0, 15532485, 10, 0, 15598022, 10, 0, 17039755, 0, 0, 18153744, 6, 0, 19005649, 1, 0, 19399395, 8, 0, 19726834, 9, 0, 20644499, 8, 0, 20644500, 8, 0, 20971965, 9, 0, 24510671, 7, 0, 25494037, 8, 0, 26084031, 8, 0, 26149314, 8, 0, 26149638, 8, 0 )
+script = ExtResource( 2 )
+
+[node name="Area2D" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 933.319, 827.021 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D2" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 1101.56, 806.314 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D2"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D3" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 1434.15, 827.021 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D3"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D4" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 1585.56, 827.021 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D4"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D5" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 1353.91, 649.724 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D5"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D6" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 1513.09, 626.43 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D6"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D7" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 1338.38, 499.604 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D7"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D8" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 1219.32, 455.604 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D8"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D9" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 1064.03, 497.016 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D9"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D10" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 943.672, 499.604 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D10"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D11" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 1137.79, 330.073 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D11"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D12" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 925.554, 667.842 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D12"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D13" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 1034.26, 630.312 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D13"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D14" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 1493.68, 311.955 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D14"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D15" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 1426.38, 150.188 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D15"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D16" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 1328.03, 138.541 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D16"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D17" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 1350.03, 305.484 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D17"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D18" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 1315.09, 234.307 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D18"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D19" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 1225.79, 176.071 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D19"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D20" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 1154.62, 218.777 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D20"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D21" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 1265.91, 370.191 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D21"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D22" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 1018.73, 264.072 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D22"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D23" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 911.319, 186.424 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D23"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D24" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 890.612, 292.543 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D24"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D25" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 922.966, 371.485 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D25"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D26" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 823.317, 547.487 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D26"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D27" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 446.724, 783.02 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D27"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D28" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 576.138, 578.547 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D28"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D29" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 451.901, 609.606 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D29"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D30" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 481.666, 497.016 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D30"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D31" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 406.606, 419.368 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D31"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D32" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 392.37, 319.72 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D32"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D33" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 504.96, 336.543 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D33"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D34" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 605.903, 231.719 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D34"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D35" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 521.784, 223.954 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D35"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D36" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 420.841, 213.601 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D36"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D38" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 341.899, 160.541 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D38"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D39" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 704.257, 116.54 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D39"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D40" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 798.729, 183.835 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D40"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D41" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 758.61, 284.778 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D41"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D42" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 779.317, 406.427 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D42"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D37" type="Area2D" parent="TileMap"]
+editor/display_folded = true
+position = Vector2( 481.666, 161.835 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Area2D37"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
