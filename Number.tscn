@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://TileMap/Num.tres" type="TileSet" id=1]
+[ext_resource path="res://Area2D.cs" type="Script" id=2]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 33.7248
+
+[node name="TileMap" type="TileMap"]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 2, 2 )
+format = 1
+tile_data = PoolIntArray( 3605127, 10, 0, 3867318, 12, 0, 4850259, 10, 0, 5177782, 11, 0, 6357551, 8, 0, 6750846, 8, 0, 7733739, 11, 0, 8651177, 11, 0, 9044625, 10, 0, 9372378, 8, 0, 9896487, 11, 0, 11141734, 8, 0, 14025296, 9, 0, 14549789, 12, 0, 15270541, 8, 0, 15335936, 11, 0, 15466950, 10, 0, 19464932, 8, 0, 19726836, 9, 0, 20644500, 8, 0, 20906429, 9, 0, 25494037, 8, 0, 26149564, 8, 0, 26214851, 8, 0, 26215172, 8, 0 )
+
+[node name="Area2D" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 935.394, 827.379 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+[connection signal="mouse_entered" from="Area2D" to="Area2D" method="_on_Area2D_mouse_entered"]
