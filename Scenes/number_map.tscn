@@ -1,0 +1,660 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://TileMap/Num.tres" type="TileSet" id=1]
+[ext_resource path="res://Scripts/number_map.cs" type="Script" id=2]
+
+[sub_resource type="Shader" id=1]
+code = "shader_type canvas_item;
+
+uniform float whitening;
+
+void fragment() {
+    vec4 texture_color = texture(TEXTURE, UV);
+    COLOR = vec4(mix(texture_color.rgb, vec3(1,1,1), whitening), texture_color.a);
+}"
+
+[sub_resource type="ShaderMaterial" id=2]
+resource_local_to_scene = true
+shader = SubResource( 1 )
+shader_param/whitening = 0.0
+
+[sub_resource type="CircleShape2D" id=3]
+radius = 38.8461
+
+[node name="numofmap" type="TileMap"]
+material = SubResource( 2 )
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 2, 2 )
+format = 1
+tile_data = PoolIntArray( 2949458, 5, 0, 3670663, 10, 0, 3867317, 12, 0, 4194458, 1, 0, 4325599, 11, 0, 4719187, 10, 0, 5046656, 0, 0, 5112247, 11, 0, 6160578, 5, 0, 6422817, 1, 0, 6423088, 8, 0, 6488304, 1, 0, 6553840, 1, 0, 6685311, 8, 0, 7668202, 11, 0, 8192363, 4, 0, 8651177, 11, 0, 9175698, 10, 0, 9175771, 8, 0, 9241307, 8, 0, 9502899, 2, 0, 9830637, 4, 0, 10027557, 11, 0, 11076199, 8, 0, 11207099, 1, 0, 12386676, 5, 0, 12845237, 5, 0, 13828688, 9, 0, 15335644, 3, 0, 15335935, 11, 0, 15336076, 8, 0, 15532484, 10, 0, 17039754, 0, 0, 18088207, 6, 0, 19071183, 1, 0, 19530466, 8, 0, 19726835, 9, 0, 20644499, 8, 0, 20906429, 9, 0, 24445137, 7, 0, 25494037, 8, 0, 26083777, 8, 0, 26149565, 8, 0, 26215172, 8, 0 )
+script = ExtResource( 2 )
+
+[node name="Area2D" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 932.614, 824.074 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D2" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 455.024, 773.3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D2"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D3" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 447.091, 611.459 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D3"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D4" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 477.238, 495.632 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D4"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D5" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 578.785, 578.139 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D5"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D6" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 397.904, 421.058 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D6"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D7" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 508.971, 330.617 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D7"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D8" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 512.144, 229.07 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D8"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D9" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 423.29, 214.79 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D9"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D10" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 481.998, 159.256 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D10"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D11" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 343.957, 154.496 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D11"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D12" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 613.692, 227.483 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D12"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D13" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 710.479, 116.416 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D13"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D14" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 804.093, 183.056 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D14"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D15" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 761.253, 276.67 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D15"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D16" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 783.466, 405.191 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D16"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D17" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 823.133, 547.992 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D17"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D18" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 941.075, 501.979 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D18"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D19" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 1057.96, 495.632 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D19"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D20" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 1218.22, 448.032 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D20"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D21" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 1264.23, 367.111 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D21"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D22" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 1349.91, 308.404 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D22"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D23" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 1315, 233.83 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D23"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D24" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 1327.7, 140.216 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D24"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D25" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 1424.48, 151.323 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D25"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D26" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 1497.47, 306.817 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D26"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D27" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 1342.02, 493.73 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D27"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D28" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 1034.82, 628.826 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D28"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D29" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 927.479, 667.689 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D29"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D30" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 1105.14, 806.485 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D30"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D31" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 1353.12, 656.585 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D31"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D32" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 1510.43, 623.274 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D32"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D33" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 1438.25, 824.992 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D33"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D34" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 1577.05, 826.842 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D34"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D35" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 1132.9, 332.726 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D35"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D36" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 1155.11, 225.39 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D36"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D37" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 1225.43, 171.722 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D37"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D39" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 886.766, 292.012 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D39"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D40" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 923.778, 373.44 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D40"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D41" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 914.525, 184.676 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D41"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D42" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 396.351, 316.07 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D42"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D38" type="Area2D" parent="."]
+editor/display_folded = true
+position = Vector2( 1016.31, 262.402 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D38"]
+shape = SubResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+[connection signal="input_event" from="Area2D" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D2" to="." method="_on_Area2D_input_event" flags=3]
+[connection signal="mouse_entered" from="Area2D2" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D3" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D3" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D4" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D4" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D5" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D5" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D6" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D6" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D7" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D7" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D8" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D8" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D9" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D9" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D10" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D10" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D11" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D11" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D12" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D12" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D13" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D13" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D14" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D14" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D15" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D15" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D16" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D16" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D17" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D17" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D18" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D18" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D19" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D19" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D20" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D20" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D21" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D21" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D22" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D22" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D23" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D23" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D24" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D24" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D25" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D25" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D26" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D26" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D27" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D27" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D28" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D28" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D29" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D29" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D30" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D30" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D31" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D31" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D32" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D32" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D33" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D33" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D34" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D34" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D35" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D35" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D36" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D36" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D37" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D37" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D39" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D39" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D40" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D40" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D41" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D41" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D42" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D42" to="." method="_on_Area2D_mouse_entered"]
+[connection signal="input_event" from="Area2D38" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="Area2D38" to="." method="_on_Area2D_mouse_entered"]

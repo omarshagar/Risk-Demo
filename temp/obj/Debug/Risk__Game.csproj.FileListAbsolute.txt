@@ -1,0 +1,5 @@
+C:\Users\omerh\OneDrive\Desktop\New folder (5)\Risk-Demo-FIX\.mono\temp\bin\Debug\Risk__Game.dll
+C:\Users\omerh\OneDrive\Desktop\New folder (5)\Risk-Demo-FIX\.mono\temp\bin\Debug\Risk__Game.pdb
+C:\Users\omerh\OneDrive\Desktop\New folder (5)\Risk-Demo-FIX\.mono\temp\obj\Debug\Risk__Game.csprojAssemblyReference.cache
+C:\Users\omerh\OneDrive\Desktop\New folder (5)\Risk-Demo-FIX\.mono\temp\obj\Debug\Risk__Game.dll
+C:\Users\omerh\OneDrive\Desktop\New folder (5)\Risk-Demo-FIX\.mono\temp\obj\Debug\Risk__Game.pdb
