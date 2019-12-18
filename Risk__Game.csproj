@@ -3,14 +3,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E976954C-F896-43F2-B631-8BF9B3E01624}</ProjectGuid>
+    <ProjectGuid>{6ADBDB60-5623-4675-BA09-54C602C0416B}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <OutputPath>.mono\temp\bin\$(Configuration)</OutputPath>
+    <OutputPath>.mono/temp/bin/$(Configuration)</OutputPath>
     <RootNamespace>Risk__Game</RootNamespace>
     <AssemblyName>Risk__Game</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <BaseIntermediateOutputPath>.mono\temp\obj</BaseIntermediateOutputPath>
-    <IntermediateOutputPath>$(BaseIntermediateOutputPath)\$(Configuration)</IntermediateOutputPath>
+    <BaseIntermediateOutputPath>.mono/temp/obj</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(BaseIntermediateOutputPath)/$(Configuration)</IntermediateOutputPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -39,20 +39,22 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="GodotSharp">
-      <HintPath>$(ProjectDir)\.mono\assemblies\GodotSharp.dll</HintPath>
+      <HintPath>$(ProjectDir)/.mono/assemblies/GodotSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="GodotSharpEditor" Condition=" '$(Configuration)' == 'Tools' ">
-      <HintPath>$(ProjectDir)\.mono\assemblies\GodotSharpEditor.dll</HintPath>
+      <HintPath>$(ProjectDir)/.mono/assemblies/GodotSharpEditor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Area2D.cs" />
-    <Compile Include="number_map.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TileMap.cs" />
+    <Compile Include="Node2D.cs" />
+    <Compile Include="Scripts\AnimationP.cs" />
+    <Compile Include="Scripts\AnimationPlayer.cs" />
+    <Compile Include="Scripts\Game.cs" />
+    <Compile Include="Scripts\number_map.cs" />
+    <Compile Include="Scripts\Root.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

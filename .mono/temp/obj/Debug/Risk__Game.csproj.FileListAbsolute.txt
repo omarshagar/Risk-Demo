@@ -1,0 +1,2 @@
+C:\Users\omars\Desktop\risk_game\.mono\temp\obj\Debug\Risk__Game.csprojAssemblyReference.cache
+C:\Users\omars\Desktop\risk_game\.mono\temp\obj\Debug\Risk__Game.csproj.CoreCompileInputs.cache

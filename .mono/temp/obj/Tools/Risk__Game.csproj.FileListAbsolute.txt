@@ -1,0 +1,11 @@
+/home/mohamed/Desktop/My-Files/Game Develpment/Risk-Demo-master/.mono/temp/bin/Tools/Risk__Game.dll
+/home/mohamed/Desktop/My-Files/Game Develpment/Risk-Demo-master/.mono/temp/bin/Tools/Risk__Game.pdb
+/home/mohamed/Desktop/My-Files/Game Develpment/Risk-Demo-master/.mono/temp/obj/Tools/Risk__Game.csprojAssemblyReference.cache
+/home/mohamed/Desktop/My-Files/Game Develpment/Risk-Demo-master/.mono/temp/obj/Tools/Risk__Game.dll
+/home/mohamed/Desktop/My-Files/Game Develpment/Risk-Demo-master/.mono/temp/obj/Tools/Risk__Game.pdb
+C:\Users\omars\Desktop\risk_game\.mono\temp\bin\Tools\Risk__Game.dll
+C:\Users\omars\Desktop\risk_game\.mono\temp\bin\Tools\Risk__Game.pdb
+C:\Users\omars\Desktop\risk_game\.mono\temp\obj\Tools\Risk__Game.csprojAssemblyReference.cache
+C:\Users\omars\Desktop\risk_game\.mono\temp\obj\Tools\Risk__Game.csproj.CoreCompileInputs.cache
+C:\Users\omars\Desktop\risk_game\.mono\temp\obj\Tools\Risk__Game.dll
+C:\Users\omars\Desktop\risk_game\.mono\temp\obj\Tools\Risk__Game.pdb
